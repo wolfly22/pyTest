@@ -37,8 +37,6 @@ def read_data( url ):
                     it = td.itertext()
                     for i in it:
                         td_list.append(i)
-            print(td_list)
-            print('-------------------------')
             data_list.append( td_list )
     else:
         print("网站未响应!")
